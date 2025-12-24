@@ -1,0 +1,50 @@
+# Stack artifacts
+.stack-work/
+stack.yaml.lock
+
+# Cabal artifacts
+dist/
+dist-*/
+dist-newstyle/
+cabal.sandbox.config
+.cabal-sandbox/
+*.cabal.swp
+
+# GHC generated files
+*.hi
+*.o
+*.p_hi
+*.p_o
+*.prof
+*.aux
+*.hp
+*.eventlog
+*.tix
+
+# Profiling
+*.prof.html
+*.aux
+
+# IDE/Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.history/
+.DS_Store
+
+# Haskell Language Server
+.hie/
+hie.yaml
+
+# Testing
+.hpc/
+
+# Documentation
+.haddock/
+docs/_build/
+
+# Environment
+.env
+.envrc
